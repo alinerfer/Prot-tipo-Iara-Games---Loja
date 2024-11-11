@@ -1,0 +1,148 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0077b6;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Menu de Navegação */
+  section.menu {
+    background-color: #023e8a;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apresentação */
+  section.apresentacao {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+  }
+  
+  section.apresentacao h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  section.apresentacao p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Main e Carrosséis */
+  main {
+    padding: 2rem 0;
+  }
+  
+  .carrossel {
+    margin-bottom: 2rem;
+  }
+  
+  .carrossel h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .carousel-item {
+    width: 200px;
+    height: 300px;
+    background-color: #b7d4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .controls button {
+    padding: 0.5rem 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .controls button:hover {
+    background-color: #005f8a;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

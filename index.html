@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iara Games - Jogos Online Brasileiros</title>
+  <!-- CDN do Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- CDN do Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Chamada Google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&display=swap" rel="stylesheet">
+
+  <style>
+    header {
+      background-color: #761CD6;
+      color: #ffff;
+      font-family: "Shojumaru", serif;
+    }
+
+    section li {
+      font-family: "Poppins", serif;
+    }
+
+    section {
+      font-family: "Poppins", serif;
+    }
+
+    section h2 {
+      font-family: "Shojumaru", serif;
+    }
+    
+    section h3 {
+      font-family: "Shojumaru", serif;
+    }
+
+    main {
+      background-color: #D5CDF5;
+    }
+
+    footer {
+      background-color: black;
+    }
+
+    .carousel-item-box {
+      width: 231px; 
+      height: 127px; 
+      overflow: hidden; 
+      position: relative;
+    }
+
+    
+    .carousel-item-box img {
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover;
+      border-radius: 8px; 
+    }
+
+    .carousel-item-box {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="d-flex justify-content-center align-items-center py-1">
+            <h6 class="display-6">Iara Games</h6>
+        </div>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <section class="bg-dark py-2">
+        <nav class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Novidades</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Comunidade</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Loja</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Meus Jogos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Configurações</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Meu perfil</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Apresentação -->
+    <section class="text-center py-5 bg-light">
+        <h2>Bem-vindo ao Iara Games!</h2>
+        <p class="lead">Explore a melhor seleção de jogos online brasileiros, com os mais variados gêneros e experiências. Divirta-se com nossos títulos exclusivos e descubra novos favoritos a cada clique.</p>
+    </section>
+
+<main class="py-3">
+  <section class="carrossel mb-5">
+    <h3 class="text-center mb-4">Jogos de A-Z</h3>
+        <div id="carousel-az" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-between">
+                <div class="carousel-item-box">
+                  <img src="./images/a-z/adore.jpg" class="d-block w-100" alt="Jogo 1">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/a-z/asleep.jpg" class="d-block w-100" alt="Jogo 2">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/a-z/be hero.jfif" class="d-block w-100" alt="Jogo 3">
+                </div>
+                <div class="carousel-item-box">
+                    <img src="./images/a-z/collector thief.jfif" class="d-block w-100" alt="Jogo 4">
+                  </div>
+                  <div class="carousel-item-box">
+                    <img src="./images/a-z/dodgeball.jfif" class="d-block w-100" alt="Jogo 5">
+                  </div>
+              </div>
+            </div>
+            
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-az" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-az" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      
+      <section class="carrossel mb-5">
+        <h3 class="text-center mb-4">Mais Vendidos</h3>
+        <div id="carousel-vendidos" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-between">
+                <div class="carousel-item-box">
+                  <img src="./images/mais comprados/dolmen.jpg" class="d-block w-100" alt="Jogo A">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/mais comprados/hazel sky.jpg" class="d-block w-100" alt="Jogo B">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/mais comprados/horizon chase 2.jpg" class="d-block w-100" alt="Jogo C">
+                </div>
+                <div class="carousel-item-box">
+                    <img src="./images/mais comprados/kukoos.jfif" class="d-block w-100" alt="Jogo D">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/mais comprados/no place for bravery.jfif" class="d-block w-100" alt="Jogo E">
+                </div>
+              </div>
+            </div>
+            
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-vendidos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-vendidos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      
+      <section class="carrossel mb-5">
+        <h3 class="text-center mb-4">Melhores Avaliações</h3>
+        <div id="carousel-avaliacoes" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-between">
+                <div class="carousel-item-box">
+                  <img src="./images/melhores avaliados/cosplay club.jpg" class="d-block w-100" alt="Jogo X">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/melhores avaliados/fobia.jpg" class="d-block w-100" alt="Jogo Y">
+                </div>
+                <div class="carousel-item-box">
+                  <img src="./images/melhores avaliados/lunar axe.jfif" class="d-block w-100" alt="Jogo Z">
+                </div>
+                <div class="carousel-item-box">
+                    <img src="./images/melhores avaliados/pocket bravery.jpg" class="d-block w-100" alt="Jogo W">
+                  </div>
+                  <div class="carousel-item-box">
+                    <img src="./images/melhores avaliados/road defense.jfif" class="d-block w-100" alt="Jogo V">
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-avaliacoes" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-avaliacoes" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </main>
+      
+      <!-- Footer -->
+      <footer class="text-white text-center align-items-center py-2">
+        <p>&copy; 2024 Iara Games - Todos os direitos reservados.</p>
+      </footer>      
+</body>
+
+
